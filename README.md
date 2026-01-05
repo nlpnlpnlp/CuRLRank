@@ -7,7 +7,7 @@
 This repository contains the official implementation of the paper **"CuRLRank: Curriculum-Guided Reinforcement Learning for Reasoning-Intensive Reranking"**. 
 
 > [!NOTE]
-> We have released key experimental code. The full codebase will be released upon acceptance to **ACL 2026**.
+> We have released key experimental code. The full codebase will be released upon acceptance.
 
 ---
 
