@@ -39,13 +39,13 @@ Following previous research, we use the **R2MED** and **BRIGHT** benchmarks.
 
 | **Dataset** | **Source Link**                                              |
 | ----------- | ------------------------------------------------------------ |
-| **R2MED**   | [Hugging Face - R2MED](https://huggingface.co/R2MED)         |
-| **BRIGHT**  | [Hugging Face - BRIGHT](https://huggingface.co/datasets/xlangai/BRIGHT) |
+| **R2MED**   | [Hugging Face - R2MED]         |
+| **BRIGHT**  | [Hugging Face - BRIGHT] |
 
 ### 📂 Retriever Top-100 Results
 
-- **R2MED:** Results are generated using [reason-embed-qwen3-4b-0928](https://huggingface.co/hanhainebula/reason-embed-qwen3-4b-0928).
-- **BRIGHT:** [Download from Hugging Face](https://huggingface.co/datasets/hanhainebula/bright-search-results/tree/main/examples/reason-embed-qwen3-8b-0928)
+- **R2MED:** Results are generated using [reason-embed-qwen3-4b-0928].
+- **BRIGHT:** [Download from Hugging Face]
 
 ------
 
@@ -53,7 +53,7 @@ Following previous research, we use the **R2MED** and **BRIGHT** benchmarks.
 
 ### 3.1 Supervised Fine-Tuning (SFT)
 
-Setup the environment for [LLaMA Factory](https://github.com/hiyouga/LLaMA-Factory):
+Setup the environment for [LLaMA Factory]:
 
 ```bash
 cd ./train/LLaMA-Factory/
@@ -74,7 +74,7 @@ bash run_train.sh
 
 ### 3.2 Curriculum-Guided Reinforcement Learning
 
-We utilize the [verl](https://github.com/volcengine/verl) framework for GRPO training, loading the initial policy from the SFT stage.
+We utilize the [verl] framework for GRPO training, loading the initial policy from the SFT stage.
 
 #### 3.2.1 Environment Setup
 
